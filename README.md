@@ -11,6 +11,8 @@ This repository demonstrates best practices for managing API keys and environmen
 
 Follow these steps to set up your project for secure API key handling:
 
+
+
 ### 1. Install Dependencies
 
 You'll need the `python-dotenv` package to load environment variables from a `.env` file.
@@ -18,6 +20,8 @@ You'll need the `python-dotenv` package to load environment variables from a `.e
 ```bash
 pip install python-dotenv
 ````
+
+
 
 ### 2. Set Up a `.env` File
 
@@ -29,14 +33,7 @@ API_KEY=your_api_key_here
 ```
 **Important:** This .env file should never be committed to your repository. We’ll configure .gitignore to ensure that.
 
-### 3. Add `.env` to `.gitignore`
 
-Add the following line to your `.gitignore` file to ensure that `.env` doesn't get pushed to Git:
-
-```plaintext
-# .gitignore
-.env
-```
 
 ### 3. Add `.env` to `.gitignore`
 
@@ -46,6 +43,7 @@ Add the following line to your `.gitignore` file to ensure that `.env` doesn't g
 # .gitignore
 .env
 ```
+
 
 ### 5. Provide a `.env.example` File
 
@@ -61,6 +59,8 @@ This file will not contain sensitive data, but it gives an example of the variab
 ```bash
 cp .env.example .env
 ```
+
+
 
 ## 🛑 Common Mistakes to Avoid
 
