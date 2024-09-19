@@ -1,4 +1,4 @@
-# Secure-API-Key-Handling
+# Secure API Key Handling in Python Projects
 A guide to properly managing API keys and environment variables in Python projects
 
 ## 📜 Introduction
@@ -79,6 +79,11 @@ api_key = "hardcoded_api_key"
 # .gitignore
 venv/
 ``````
+
+## 📚 Resources:
+
+- [8 Tips for Securely Using API Keys](https://blog.streamlit.io/8-tips-for-securely-using-api-keys/)
+
 
 ## 🧑‍💻 Contributing
 Contributions are welcome!
